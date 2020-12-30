@@ -2,7 +2,7 @@
 <manifest>
   <control namespace="MiltonPCF" constructor="UnderlinedTextField" version="0.0.1" display-name-key="UnderlinedTextField" description-key="UnderlinedTextField description" control-type="standard">
     <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
-    <property name="value" display-name-key="Text" description-key="Text" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="textValue" display-name-key="Text" description-key="Text" of-type="SingleLine.Text" usage="bound" required="true" />
     <!-- 
       Property node's of-type attribute can be of-type-group attribute. 
       Example:
